@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/bssoddsapp/node_modules
+/bssoddsapp/.pnp
+/bssoddsapp.pnp.js
+
+# testing
+/bssoddsapp/coverage
+
+# production
+/bssoddsapp/build
+
+# misc
+/bssoddsapp.DS_Store
+/bssoddsapp.env.local
+/bssoddsapp.env.development.local
+/bssoddsapp.env.test.local
+/bssoddsapp.env.production.local
+
+/bssoddsappnpm-debug.log*
+/bssoddsappyarn-debug.log*
+/bssoddsappyarn-error.log*

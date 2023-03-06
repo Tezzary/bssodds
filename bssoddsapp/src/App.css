@@ -1,8 +1,3 @@
-.App {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
 .Calculation{
   display: flex;
   justify-content: center;
@@ -10,31 +5,44 @@
 }
 .Calculation * {
   padding: 5px;
+
+
+  
 }
-.Calculation img {
+
+.Calculation button * {
   width: 50px;
+  padding: 0px;
 }
 .BeeSelectWrapper{
   width:300px;
-
+  padding: 10px;
   position: absolute;
-
-  background-color: red;
+  border-radius: 20px;
+  border:#131112 3px solid;
+  background-color: #FA9F42;
 }
 .BeeSelect{
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  
   /*justify-content: center;
   align-items: center;*/
 }
 
 .BeeSelect > button {
   width: calc(100% / 7);
-  padding: 0%;
+  padding: 0px;
   border-radius: 0px;
   border: 0px;
   line-height: 0px;
+}
+.BeeSelect * {
+
+  padding: 0px;
+  margin: 0px;
+
 }
 .BeeSelect > button:hover{
   opacity: 0.5;
@@ -44,3 +52,58 @@
   margin: 0px;
   width: 100%;
 }
+.bold {
+  font-weight: 800;
+}
+.App{
+  background-color: #E9E3E6;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
+
+}
+.App > div{
+  padding: 30px;
+}
+body{
+  background-color: #FA9F42;
+  color: #131112;
+  padding: 20px;
+  margin: 20px;
+  font-size: 1em;
+}
+button{
+  color: #131112;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #FA9F42;
+  margin: 10px;
+  font-weight: bold;
+  border: #131112 solid 2px;
+}
+input{
+  background-color: #736F72;
+  border-radius: 10px;
+  margin: 5px;
+  width:100px;
+  color: #E9E3E6;
+  font-weight: bold;
+  border: #131112 solid 3px;
+}
+::placeholder{
+  color: #E9E3E6;
+  font-weight: bold;
+}
+.RoyalJellyImg{
+  padding: 10px;
+  width: 50px;
+}
+/*  
+taupe grey: #9A8F97
+sandy brown: #FA9F42
+platinum: #E9E3E6
+dim grey: #736F72
+night: #131112
+
+
+*/

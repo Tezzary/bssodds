@@ -38,7 +38,7 @@ function BeeSelect(props){
         {bees.map(bee => (
           <button onClick={() => props.callback(bee)}><img src={"/static/beeimages/" + bee.name + ".png"}></img></button>
         ))}
-        <div>branch test</div>
+
       
       
       </div>

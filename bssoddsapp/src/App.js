@@ -4,10 +4,20 @@ import { Fragment, useEffect, useState } from 'react';
 function App() {
   return (
     <div className="App">
-      
-
-      <RoyalJelly isGifted={false}/>
-      <RoyalJelly isGifted={true}/>
+      <NavBar />
+      <div className='DataBlock'>
+        <RoyalJelly isGifted={false}/>
+        <RoyalJelly isGifted={true}/>
+      </div>
+      <div className='ContactInformation bold'>Discord: Tezzy#3976</div>
+    </div>
+  );
+}
+function NavBar(){
+  return (
+    <div className="NavBar DataBlock">
+      <button>Royal Jelly</button>
+      <button>Feeding</button>
     </div>
   );
 }
@@ -30,6 +40,15 @@ function BeeSelect(props){
         setbees(bees => [...bees, bee])
       }
     })
+    const handleMouseMove = (event) => {
+      window.removeEventListener('mousemove', handleMouseMove)
+      window.addEventListener('click', handleMouseClick)
+    }
+    const handleMouseClick = (event) => {
+      props.callback(null)
+      window.removeEventListener('click', handleMouseClick)
+    }
+    window.addEventListener('mousemove', handleMouseMove)
   }, []) 
   return (
     <div className="BeeSelectWrapper" style={mystyle}>
@@ -61,7 +80,9 @@ function RoyalJelly(props) {
     setBeeSelectPosition(mousePos)
   }
   let beeSelectCallBack = (bee) => {
-    setActiveBees(bee)
+    if(bee != null){
+      setActiveBees(bee)
+    }
     beeSelectOn()
   }
   let calculate = () => {
@@ -94,12 +115,12 @@ function RoyalJelly(props) {
         <h1>Odds Of Getting</h1>
         {props.isGifted ? <h1 className='bold'>Gifted</h1> : null}
         
-        <button onClick={beeSelectOn}><img src={"/static/beeimages/" + activeBee.name + ".png"}></img></button>
+        <button className="BeeSwitchButton" onClick={beeSelectOn}><img src={"/static/beeimages/" + activeBee.name + ".png"}></img></button>
         
         <h1>From</h1>
-        <input placeholder="0" onChange={inputChange}></input>
+        <input className="RoyalJellyInputCount" placeholder="0" onChange={inputChange}></input>
         <img className='RoyalJellyImg' src="/static/miscellaneous/RoyalJelly.png"></img>
-        <button onClick={calculate}>Calculate</button>
+        <button className='CalculateButton' onClick={calculate}>Calculate</button>
         <h1>{Math.floor(chance * 1000) / 1000 + "%"}</h1>
         
       </div>

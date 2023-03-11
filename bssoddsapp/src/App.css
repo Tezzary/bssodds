@@ -1,3 +1,36 @@
+.App > div{
+  margin: 30px;
+  padding: 30px;
+}
+.App{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.NavBar {
+  display: flex;
+  justify-content: center;
+}
+.NavBar button{
+  height: 100px;
+  aspect-ratio: 2/1;
+  padding: 20px;
+  background-color: #E9E3E6;
+  border:0px;
+  font-size: 1.5em;
+  border-radius: 10px;
+}
+.NavBar button:hover{
+  background-color: #9A8F97;
+  
+}
+.ContactInformation{
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+
+}
 .Calculation{
   display: flex;
   justify-content: center;
@@ -5,14 +38,26 @@
 }
 .Calculation * {
   padding: 5px;
-
-
-  
 }
 
-.Calculation button * {
+.DataBlock{
+  background-color: #E9E3E6;
+  width: 80%;
+  border-radius: 30px;
+}
+.BeeSwitchButton{
+  border-radius: 5px;
+  background-color: #FA9F42;
+  margin: 10px;
+}
+.BeeSwitchButton * {
   width: 50px;
   padding: 0px;
+  line-height: 0px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .BeeSelectWrapper{
   width:300px;
@@ -39,15 +84,18 @@
   line-height: 0px;
 }
 .BeeSelect * {
-
   padding: 0px;
   margin: 0px;
-
+}
+.BeeSelect > button > img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
 }
 .BeeSelect > button:hover{
   opacity: 0.5;
 }
-.BeeSelect img {
+.BeeSelect > img {
   padding: 0px;
   margin: 0px;
   width: 100%;
@@ -55,33 +103,24 @@
 .bold {
   font-weight: 800;
 }
-.App{
-  background-color: #E9E3E6;
-  width: 80%;
-  margin: auto;
-  border-radius: 30px;
 
-}
-.App > div{
-  padding: 30px;
-}
 body{
   background-color: #FA9F42;
   color: #131112;
-  padding: 20px;
-  margin: 20px;
-  font-size: 1em;
+}
+
+.CalculateButton{
+  border-radius: 5px;
+  background-color: #FA9F42;
+  margin: 10px;
 }
 button{
   color: #131112;
   cursor: pointer;
-  border-radius: 5px;
-  background-color: #FA9F42;
-  margin: 10px;
   font-weight: bold;
   border: #131112 solid 2px;
 }
-input{
+.RoyalJellyInputCount{
   background-color: #736F72;
   border-radius: 10px;
   margin: 5px;

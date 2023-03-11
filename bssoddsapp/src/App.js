@@ -40,7 +40,6 @@ function BeeSelect(props){
         ))}
 
       
-      
       </div>
     </div>
   );

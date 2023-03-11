@@ -40,7 +40,7 @@ function BeeSelect(props){
           <button onClick={() => props.callback(bee)}><img src={"/static/beeimages/" + bee.name + ".png"}></img></button>
         ))}
         
-      
+      <div>test</div>
       </div>
     </div>
   );

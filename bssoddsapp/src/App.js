@@ -28,6 +28,7 @@ function BeeSelect(props){
           continue
         }
         setbees(bees => [...bees, bee])
+        
       }
     })
   }, []) 

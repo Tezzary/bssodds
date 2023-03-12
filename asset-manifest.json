@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bssodds/static/css/main.5b05b261.css",
-    "main.js": "/bssodds/static/js/main.b933e67c.js",
+    "main.css": "/bssodds/static/css/main.10d1b671.css",
+    "main.js": "/bssodds/static/js/main.ad9fee56.js",
     "static/js/787.25b353c9.chunk.js": "/bssodds/static/js/787.25b353c9.chunk.js",
     "static/media/logo.svg": "/bssodds/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bssodds/index.html",
-    "main.5b05b261.css.map": "/bssodds/static/css/main.5b05b261.css.map",
-    "main.b933e67c.js.map": "/bssodds/static/js/main.b933e67c.js.map",
+    "main.10d1b671.css.map": "/bssodds/static/css/main.10d1b671.css.map",
+    "main.ad9fee56.js.map": "/bssodds/static/js/main.ad9fee56.js.map",
     "787.25b353c9.chunk.js.map": "/bssodds/static/js/787.25b353c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b05b261.css",
-    "static/js/main.b933e67c.js"
+    "static/css/main.10d1b671.css",
+    "static/js/main.ad9fee56.js"
   ]
 }

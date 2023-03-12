@@ -2,187 +2,233 @@
     "bees":[
        {
           "name":"BabyBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"BasicBee",
-          "rarity":"Common"
+          "rarity":"Common",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"BearBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"BomberBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"BraveBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"BubbleBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"BuckoBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"BumbleBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"BuoyantBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"CarpenterBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"CobaltBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"CommanderBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"CoolBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"CrimsonBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"DemoBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"DemonBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"DiamondBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"DigitalBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"ExhaustedBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"FestiveBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"FireBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"FrostyBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"FuzzyBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"GummyBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"HastyBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"HoneyBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"LionBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"LookerBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"MusicBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"NinjaBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"PhotonBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"PreciseBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"PuppyBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"RadBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"RageBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"RascalBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"RileyBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"ShockedBee",
-          "rarity":"Epic"
+          "rarity":"Epic",
+          "favouriteFood":"Pineapple"
        },
        {
           "name":"ShyBee",
-          "rarity":"Legendary"
+          "rarity":"Legendary",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"SpicyBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"StubbornBee",
-          "rarity":"Rare"
+          "rarity":"Rare",
+          "favouriteFood":"Strawberry"
        },
        {
           "name":"TabbyBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"TadpoleBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"Blueberry"
        },
        {
           "name":"VectorBee",
-          "rarity":"Mythic"
+          "rarity":"Mythic",
+          "favouriteFood":"SunflowerSeed"
        },
        {
           "name":"ViciousBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        },
        {
           "name":"WindyBee",
-          "rarity":"Event"
+          "rarity":"Event",
+          "favouriteFood":"None"
        }
     ]
  }

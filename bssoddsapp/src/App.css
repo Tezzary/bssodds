@@ -13,10 +13,10 @@
   justify-content: center;
 }
 .NavBar button{
-  height: 100px;
+  height: 120px;
   aspect-ratio: 2/1;
   padding: 20px;
-  background-color: #E9E3E6;
+  
   border:0px;
   font-size: 1.5em;
   border-radius: 10px;
@@ -24,6 +24,17 @@
 .NavBar button:hover{
   background-color: #9A8F97;
   
+}
+.NavBar img{
+  height: 70%;
+  display: block;
+  margin: auto;
+}
+.ActivePageButton{
+  background-color: #FA9F42;
+}
+.NotActivePageButton{
+  background-color: #E9E3E6;
 }
 .ContactInformation{
   right: 0px;

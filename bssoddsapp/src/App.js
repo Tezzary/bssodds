@@ -39,7 +39,7 @@ function App() {
       <NavBar callback={changeActivePage} activePage={activePage}/>
       {pageData}
       
-      <div className='ContactInformation bold'>Discord: Tezzy#3976</div>
+      <div className='ContactInformation bold'>Discord: Tezzy#3976 V:0.1.2</div>
     </div>
   );
 }

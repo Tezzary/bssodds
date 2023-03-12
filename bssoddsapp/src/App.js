@@ -48,11 +48,11 @@ function NavBar(props){
   return (
     <div className="NavBar DataBlock">
       <button className={(props.activePage == "RoyalJelly" ? 'ActivePageButton' : 'NotActivePageButton')} onClick={() => props.callback("RoyalJelly")}>
-        <img src="bssodds/static/miscellaneous/RoyalJelly.png" ></img>
+        <img src="/bssodds/static/miscellaneous/RoyalJelly.png" ></img>
         Royal Jelly
       </button>
       <button className={(props.activePage == "Feeding" ? 'ActivePageButton' : 'NotActivePageButton')} onClick={() => props.callback("Feeding")}>
-        <img src="bssodds/static/miscellaneous/Blueberry.png" ></img>
+        <img src="/bssodds/static/miscellaneous/Blueberry.png" ></img>
         Feeding
       </button>
     </div>
@@ -187,11 +187,11 @@ function Feeding(props){
       <div className="Calculation">
         <h1>Odds Of</h1>
         <h1 className='bold'>Gifting</h1>
-        <button className="BeeSwitchButton" onClick={beeSelectOn}><img src={"bssodds/static/beeimages/" + activeBee.name + ".png"}></img></button>
+        <button className="BeeSwitchButton" onClick={beeSelectOn}><img src={"/bssodds/static/beeimages/" + activeBee.name + ".png"}></img></button>
         <h1>From</h1>
         <input className="RoyalJellyInputCount" placeholder="0" onChange={inputChange}></input>
         {props.foodType == "AgedGingerbreadBear" ? <h1>Aged</h1> : null}
-        <img className='RoyalJellyImg' src={"bssodds/static/miscellaneous/" + props.foodType.replace('Aged', '') + ".png"}></img>
+        <img className='RoyalJellyImg' src={"/bssodds/static/miscellaneous/" + props.foodType.replace('Aged', '') + ".png"}></img>
         <button className='CalculateButton' onClick={() => calculate(props.foodType)}>Calculate</button>
         <h1>{Math.floor(chance * 1000) / 1000 + "%"}</h1>
         
@@ -252,11 +252,11 @@ function RoyalJelly(props) {
         <h1>Odds Of Getting</h1>
         {props.isGifted ? <h1 className='bold'>Gifted</h1> : null}
         
-        <button className="BeeSwitchButton" onClick={beeSelectOn}><img src={"bssodds/static/beeimages/" + activeBee.name + ".png"}></img></button>
+        <button className="BeeSwitchButton" onClick={beeSelectOn}><img src={"/bssodds/static/beeimages/" + activeBee.name + ".png"}></img></button>
         
         <h1>From</h1>
         <input className="RoyalJellyInputCount" placeholder="0" onChange={inputChange}></input>
-        <img className='RoyalJellyImg' src="bssodds/static/miscellaneous/RoyalJelly.png"></img>
+        <img className='RoyalJellyImg' src="/bssodds/static/miscellaneous/RoyalJelly.png"></img>
         <button className='CalculateButton' onClick={calculate}>Calculate</button>
         <h1>{Math.floor(chance * 1000) / 1000 + "%"}</h1>
         

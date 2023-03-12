@@ -247,7 +247,7 @@ function RoyalJelly(props) {
   return (
     
     <div className="RoyalJelly">
-      {(beeSelectIsOn == true) ? <BeeSelect beeSelectPosition={beeSelectPosition} callback={beeSelectCallBack}/> : <div></div>}
+      {(beeSelectIsOn == true) ? <BeeSelect beesToShow="RoyalJelly" beeSelectPosition={beeSelectPosition} callback={beeSelectCallBack}/> : <div></div>}
       <div className="Calculation">
         <h1>Odds Of Getting</h1>
         {props.isGifted ? <h1 className='bold'>Gifted</h1> : null}

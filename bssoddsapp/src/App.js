@@ -52,7 +52,7 @@ function NavBar(props){
         Royal Jelly
       </button>
       <button className={(props.activePage == "Feeding" ? 'ActivePageButton' : 'NotActivePageButton')} onClick={() => props.callback("Feeding")}>
-        <img src="/bssodds/static/miscellaneous/Blueberry.png" ></img>
+        <img src="/bssodds/static/miscellaneous/FeedingPage.png" ></img>
         Feeding
       </button>
     </div>

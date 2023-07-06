@@ -39,7 +39,7 @@
 .ContactInformation{
   right: 0px;
   bottom: 0px;
-  position: absolute;
+  position: fixed;
 
 }
 .Calculation{
@@ -55,6 +55,7 @@
   background-color: #E9E3E6;
   width: 80%;
   border-radius: 30px;
+  font-size: 0.7vw;
 }
 .BeeSwitchButton{
   border-radius: 5px;

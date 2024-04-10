@@ -39,7 +39,7 @@ function App() {
       <NavBar callback={changeActivePage} activePage={activePage}/>
       {pageData}
       
-      <div className='ContactInformation bold'>Discord: Tezzy#3976 V:0.1.3</div>
+      <div className='ContactInformation bold'>Version:0.1.4 Discord: Tezzary</div>
     </div>
   );
 }
@@ -170,7 +170,7 @@ function Feeding(props){
       chanceOfNotGetting = 1 - 1 / 10000
     }
     else if(activeBee.rarity == "Rare"){
-      chanceOfNotGetting = 1 - 7 / 8000
+      chanceOfNotGetting = 1 - 1 / 8000
     }
     console.log("calculating")
     let chanceOfGetting = (1 - Math.pow(chanceOfNotGetting, foodCount)) * 100
